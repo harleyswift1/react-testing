@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #282c34;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.selected-card-area {
+    display: flex;
+    justify-content: center;
+}
+
+.card-area {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    width: auto;
+    height: auto;
+}
